@@ -49,54 +49,61 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 37);
+            this.label1.Location = new System.Drawing.Point(69, 57);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 13);
+            this.label1.Size = new System.Drawing.Size(130, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Array of numbers";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 95);
+            this.label2.Location = new System.Drawing.Point(69, 146);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 13);
+            this.label2.Size = new System.Drawing.Size(188, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Enter a number to locate:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 65);
+            this.label3.Location = new System.Drawing.Point(69, 100);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 13);
+            this.label3.Size = new System.Drawing.Size(123, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Enter a number:";
             // 
             // num
             // 
-            this.num.Location = new System.Drawing.Point(145, 65);
+            this.num.Location = new System.Drawing.Point(218, 100);
+            this.num.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.num.Name = "num";
-            this.num.Size = new System.Drawing.Size(100, 20);
+            this.num.Size = new System.Drawing.Size(148, 26);
             this.num.TabIndex = 3;
             // 
             // numToLocate
             // 
-            this.numToLocate.Location = new System.Drawing.Point(178, 95);
+            this.numToLocate.Location = new System.Drawing.Point(267, 146);
+            this.numToLocate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numToLocate.Name = "numToLocate";
-            this.numToLocate.Size = new System.Drawing.Size(100, 20);
+            this.numToLocate.Size = new System.Drawing.Size(148, 26);
             this.numToLocate.TabIndex = 4;
             // 
             // Add
             // 
-            this.Add.Location = new System.Drawing.Point(275, 63);
+            this.Add.Location = new System.Drawing.Point(412, 97);
+            this.Add.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(75, 23);
+            this.Add.Size = new System.Drawing.Size(112, 35);
             this.Add.TabIndex = 5;
             this.Add.Text = "Add";
             this.Add.UseVisualStyleBackColor = true;
@@ -104,9 +111,10 @@
             // 
             // Locate
             // 
-            this.Locate.Location = new System.Drawing.Point(49, 125);
+            this.Locate.Location = new System.Drawing.Point(74, 192);
+            this.Locate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Locate.Name = "Locate";
-            this.Locate.Size = new System.Drawing.Size(75, 23);
+            this.Locate.Size = new System.Drawing.Size(112, 35);
             this.Locate.TabIndex = 6;
             this.Locate.Text = "Locate";
             this.Locate.UseVisualStyleBackColor = true;
@@ -115,130 +123,155 @@
             // smallestResult
             // 
             this.smallestResult.AutoSize = true;
-            this.smallestResult.Location = new System.Drawing.Point(46, 231);
+            this.smallestResult.Location = new System.Drawing.Point(69, 355);
+            this.smallestResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.smallestResult.Name = "smallestResult";
-            this.smallestResult.Size = new System.Drawing.Size(126, 13);
+            this.smallestResult.Size = new System.Drawing.Size(189, 20);
             this.smallestResult.TabIndex = 7;
             this.smallestResult.Text = "The smallest number is__";
             // 
             // largestResult
             // 
             this.largestResult.AutoSize = true;
-            this.largestResult.Location = new System.Drawing.Point(46, 208);
+            this.largestResult.Location = new System.Drawing.Point(69, 320);
+            this.largestResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.largestResult.Name = "largestResult";
-            this.largestResult.Size = new System.Drawing.Size(120, 13);
+            this.largestResult.Size = new System.Drawing.Size(179, 20);
             this.largestResult.TabIndex = 8;
             this.largestResult.Text = "The largest number is__";
             // 
             // containsResult
             // 
             this.containsResult.AutoSize = true;
-            this.containsResult.Location = new System.Drawing.Point(46, 173);
+            this.containsResult.Location = new System.Drawing.Point(69, 266);
+            this.containsResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.containsResult.Name = "containsResult";
-            this.containsResult.Size = new System.Drawing.Size(249, 13);
+            this.containsResult.Size = new System.Drawing.Size(371, 20);
             this.containsResult.TabIndex = 9;
             this.containsResult.Text = "Number__is an element/not an element of the array";
             // 
             // sumResult
             // 
             this.sumResult.AutoSize = true;
-            this.sumResult.Location = new System.Drawing.Point(301, 208);
+            this.sumResult.Location = new System.Drawing.Point(452, 320);
+            this.sumResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sumResult.Name = "sumResult";
-            this.sumResult.Size = new System.Drawing.Size(126, 13);
+            this.sumResult.Size = new System.Drawing.Size(187, 20);
             this.sumResult.TabIndex = 11;
             this.sumResult.Text = "The sum of the array is__";
             // 
             // meanResult
             // 
             this.meanResult.AutoSize = true;
-            this.meanResult.Location = new System.Drawing.Point(301, 231);
+            this.meanResult.Location = new System.Drawing.Point(452, 355);
+            this.meanResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.meanResult.Name = "meanResult";
-            this.meanResult.Size = new System.Drawing.Size(133, 13);
+            this.meanResult.Size = new System.Drawing.Size(197, 20);
             this.meanResult.TabIndex = 10;
             this.meanResult.Text = "The mean of the array is__";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(46, 452);
+            this.label9.Location = new System.Drawing.Point(69, 695);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(206, 13);
+            this.label9.Size = new System.Drawing.Size(306, 20);
             this.label9.TabIndex = 20;
             this.label9.Text = "_is an element/not an element of the array";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(46, 475);
+            this.label10.Location = new System.Drawing.Point(69, 731);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(154, 13);
+            this.label10.Size = new System.Drawing.Size(227, 20);
             this.label10.TabIndex = 19;
             this.label10.Text = "There are __ words in the array";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(49, 369);
+            this.button1.Location = new System.Drawing.Point(74, 568);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(112, 35);
             this.button1.TabIndex = 18;
             this.button1.Text = "Locate";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(255, 305);
+            this.button2.Location = new System.Drawing.Point(382, 469);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(112, 35);
             this.button2.TabIndex = 17;
             this.button2.Text = "Add";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(166, 339);
+            this.textBox3.Location = new System.Drawing.Point(249, 522);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(148, 26);
             this.textBox3.TabIndex = 16;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(122, 307);
+            this.textBox4.Location = new System.Drawing.Point(183, 472);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(148, 26);
             this.textBox4.TabIndex = 15;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(46, 309);
+            this.label11.Location = new System.Drawing.Point(69, 475);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 13);
+            this.label11.Size = new System.Drawing.Size(103, 20);
             this.label11.TabIndex = 14;
             this.label11.Text = "Enter a word:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(46, 339);
+            this.label12.Location = new System.Drawing.Point(69, 522);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(114, 13);
+            this.label12.Size = new System.Drawing.Size(168, 20);
             this.label12.TabIndex = 13;
             this.label12.Text = "Enter a word to locate:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(46, 281);
+            this.label13.Location = new System.Drawing.Point(69, 432);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(74, 13);
+            this.label13.Size = new System.Drawing.Size(110, 20);
             this.label13.TabIndex = 12;
             this.label13.Text = "Array of words";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(584, 767);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(119, 38);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "back";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // ArraysForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 540);
+            this.ClientSize = new System.Drawing.Size(716, 831);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button1);
@@ -260,6 +293,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ArraysForm";
             this.Text = "ArraysForm";
             this.ResumeLayout(false);
@@ -290,5 +324,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button3;
     }
 }

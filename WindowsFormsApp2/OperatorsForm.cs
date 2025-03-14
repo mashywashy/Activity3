@@ -82,5 +82,11 @@ namespace WindowsFormsApp2
         {
             return Regex.IsMatch(input, @"^[a-zA-Z0-9]+$");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new MenuPage().Show();
+            this.Hide();
+        }
     }
 }
