@@ -36,7 +36,7 @@ namespace WindowsFormsApp2
         private void Locate_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Locate is clicked!");
-            if (int.TryParse(num.Text, out int parsedNum)) // Ensure valid integer input
+            if (int.TryParse(numToLocate.Text, out int parsedNum)) // Ensure valid integer input
             {
                 containsResult.Text = numsArr.Contains(parsedNum)
                     ? $"Number {parsedNum} is an element of the array."
@@ -85,5 +85,44 @@ namespace WindowsFormsApp2
             this.Close();
         }
 
+       
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string word = textBox4.Text.Trim();
+
+            if (!string.IsNullOrEmpty(word))
+            {
+                wordsArr.Add(word); // Add word to list
+                MessageBox.Show($"Word '{word}' added successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid word.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string wordToLocate = textBox3.Text.Trim();
+
+            if (!string.IsNullOrEmpty(wordToLocate))
+            {
+                label9.Text = wordsArr.Contains(wordToLocate)
+                    ? $"'{wordToLocate}' is an element of the array."
+                    : $"'{wordToLocate}' is not an element of the array.";
+
+                label10.Text = $"There are {wordsArr.Count} words in the array";
+
+                label9.Refresh();
+                label10.Refresh();
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid word to locate.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
+
+
 }
