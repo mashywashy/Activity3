@@ -80,7 +80,7 @@ namespace WindowsFormsApp2
 
         private bool IsAlphanumeric(string input)
         {
-            return Regex.IsMatch(input, @"^[a-zA-Z0-9]+$");
+            return Regex.IsMatch(input, @"^[a-zA-Z]+$");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -88,5 +88,7 @@ namespace WindowsFormsApp2
             new MenuPage().Show();
             this.Hide();
         }
+
+
     }
 }

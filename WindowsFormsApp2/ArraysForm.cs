@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
                 largestResult.Text = $"The largest number is {GetLargest()}";
                 smallestResult.Text = $"The smallest number is {GetSmallest()}";
                 sumResult.Text = $"The sum of the array is {GetSum()}";
-                meanResult.Text = $"The mean of the array is {GetMean()}";
+                meanResult.Text = $"The mean of the array is {((float)GetMean())}";
 
                 containsResult.Refresh();
                 largestResult.Refresh();
